@@ -77,6 +77,7 @@ You can pass in any number of options from the following defaults:
         pagination: true, // whether pagination links will be included
         speed: 'normal', // animation speed
         easing: 'swing' // supports the jQuery easing plugin
+        roundabout: false // turns back after last item reached
     }
 
 The plugin supports multiple carousels on a single page and maintains jQuery's chainability so usage should feel pretty familiar but if you do become stuck see the demo or leave me a message.
